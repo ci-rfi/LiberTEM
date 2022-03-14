@@ -1,4 +1,4 @@
-Results of doctest builder run on 2022-02-17 21:30:44
+Results of doctest builder run on 2022-03-11 10:02:51
 =====================================================
 
 Document: udf/advanced
@@ -12,46 +12,6 @@ Test passed.
    2 tests in default (cleanup code)
 2 tests in 1 items.
 2 passed and 0 failed.
-Test passed.
-
-Document: debugging
--------------------
-1 items passed all tests:
-   2 tests in default
-2 tests in 1 items.
-2 passed and 0 failed.
-Test passed.
-
-Document: dask
---------------
-4 items passed all tests:
-   1 tests in from_dask
-   1 tests in make_dask_array
-   2 tests in merge_all
-   1 tests in to_dask
-5 tests in 4 items.
-5 passed and 0 failed.
-Test passed.
-1 items passed all tests:
-   1 tests in merge_all (cleanup code)
-1 tests in 1 items.
-1 passed and 0 failed.
-Test passed.
-
-Document: changelog
--------------------
-1 items passed all tests:
-   1 tests in jobdeprecation
-1 tests in 1 items.
-1 passed and 0 failed.
-Test passed.
-
-Document: app/holography
-------------------------
-1 items passed all tests:
-   9 tests in default
-9 tests in 1 items.
-9 passed and 0 failed.
 Test passed.
 
 Document: udf/basic
@@ -79,12 +39,20 @@ Test passed.
 4 passed and 0 failed.
 Test passed.
 
-Document: udf/profiling
------------------------
+Document: tips
+--------------
 1 items passed all tests:
-   1 tests in default
-1 tests in 1 items.
-1 passed and 0 failed.
+   5 tests in default
+5 tests in 1 items.
+5 passed and 0 failed.
+Test passed.
+
+Document: debugging
+-------------------
+1 items passed all tests:
+   2 tests in default
+2 tests in 1 items.
+2 passed and 0 failed.
 Test passed.
 
 Document: udf
@@ -95,12 +63,28 @@ Document: udf
 1 passed and 0 failed.
 Test passed.
 
-Document: tips
+Document: dask
 --------------
-1 items passed all tests:
-   5 tests in default
-5 tests in 1 items.
+4 items passed all tests:
+   1 tests in from_dask
+   1 tests in make_dask_array
+   2 tests in merge_all
+   1 tests in to_dask
+5 tests in 4 items.
 5 passed and 0 failed.
+Test passed.
+1 items passed all tests:
+   1 tests in merge_all (cleanup code)
+1 tests in 1 items.
+1 passed and 0 failed.
+Test passed.
+
+Document: udf/profiling
+-----------------------
+1 items passed all tests:
+   1 tests in default
+1 tests in 1 items.
+1 passed and 0 failed.
 Test passed.
 
 Document: reference/corrections
@@ -109,6 +93,22 @@ Document: reference/corrections
    2 tests in default
 2 tests in 1 items.
 2 passed and 0 failed.
+Test passed.
+
+Document: app/holography
+------------------------
+1 items passed all tests:
+   9 tests in default
+9 tests in 1 items.
+9 passed and 0 failed.
+Test passed.
+
+Document: changelog
+-------------------
+1 items passed all tests:
+   1 tests in jobdeprecation
+1 tests in 1 items.
+1 passed and 0 failed.
 Test passed.
 
 Document: sample_datasets
